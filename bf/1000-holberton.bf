@@ -1,4 +1,4 @@
-set up cell blocks 0 | 70 | 100 | 10:
+						set up cell blocks 0 | 70 | 100 | 10:
 +++++ +++++				cell 0: initialize counter to 10
 [						set loop
 	> +++++ ++			cell 1: add 7
@@ -6,6 +6,7 @@ set up cell blocks 0 | 70 | 100 | 10:
 	> +					cell 3: add 1
 	<<< -				decrease counter to cell 0
 ]						end loop
+
 						print to standard out:
 > ++ .					putchar H (70 plus 2 = 72)
 > +++++ +++++ +.		putchar o (100 plus 11 = 111)
